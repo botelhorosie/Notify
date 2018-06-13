@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.banner{
+    background-image: url(img/background.png);
+    background-size: cover;
+    color: white;
+    border-top: 10px solid rgb(45, 204 , 112);
+
+}
+
+.banner > div{
+    padding: 170px 10px;
+    
+}
+
+.banner h1{
+    font-family: 'Pacifico';
+    font-size: 59px;
+    position: relative;
+}
+
+.banner p{
+    font-family: 'Roboto';
+    font-size: 25px;
+    position: relative;
+}
+
+.banner h1 span{
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: rgb(45, 204, 112);
+    border-radius: 100%;
+    position: relative;
+    top:0;
+    left: 150px;
+}
+
+.icone > img{
+    width: 25px;
+    height: 25px;
+
+    
+}
+
+
+
+.icone{
+    border-radius: 100%;
+    background-color: black;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+
+
+}
+
+.icone:hover{
+        background-color: rgb(45, 204, 112); 
+       
+}
+
+
+#bolinhas{
+    display: flex;
+  
+}
+
+.maos{
+    position: relative;
+}
